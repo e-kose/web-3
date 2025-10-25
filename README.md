@@ -2,6 +2,14 @@
 
 An on-chain LinkTree application built on Sui blockchain using Move smart contracts and Walrus decentralized storage.
 
+## 🚀 Live Deployment (Testnet)
+
+- **Package ID**: `0xf4b4f4df0c4692935d43a58836539969e61dad73db64f7640915ca90b0e27193`
+- **Registry ID**: `0x1d4b4822a5d8f059d06af85d263543006fe946d88f04f5fef9aa164b10390f4d`
+- **Network**: Sui Testnet
+- **Explorer**: [View on SuiScan](https://suiscan.xyz/testnet/object/0xf4b4f4df0c4692935d43a58836539969e61dad73db64f7640915ca90b0e27193)
+- **Status**: ✅ Fully functional with wallet integration, profile creation, and link management
+
 ## Project Structure
 
 ```
@@ -128,8 +136,11 @@ Tests cover:
 
 ## Future Features
 
-- [ ] React frontend with dApp Kit
-- [ ] Walrus Sites integration for decentralized hosting
+- [x] React frontend with dApp Kit ✅
+- [x] Wallet integration ✅
+- [x] Profile creation & management ✅
+- [x] Link system ✅
+- [ ] Walrus Sites hosting (build ready, awaiting deployment)
 - [ ] SuiNS domain binding
 - [ ] Theme customization
 - [ ] Link analytics
