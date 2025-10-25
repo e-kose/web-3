@@ -1,0 +1,13 @@
+[package]
+name = "linktree"
+version = "0.0.1"
+edition = "2024.beta"
+
+[addresses]
+linktree = "0x0"
+
+# Note: do NOT explicitly list the Sui framework as a dependency here.
+# The Sui Move toolchain will automatically add Bridge/MoveStdlib/Sui
+# dependencies when building. Keeping explicit Sui git dependencies
+# can disable that feature and force a full git clone during build.
+

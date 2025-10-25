@@ -1,0 +1,51 @@
+# .gitignore for Walrus LinkTree project
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+/dist
+/build
+/out
+
+# Move build artifacts
+/move/build
+/move/target
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Walrus
+.walrus/
+walrus-cache/
+
+# Sui CLI
+.sui/
+
+# Temporary files
+*.tmp
+.cache/

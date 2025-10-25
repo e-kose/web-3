@@ -1,0 +1,6 @@
+{
+  "site_name": "Walrus On-Chain LinkTree",
+  "description": "Decentralized LinkTree profiles on Sui blockchain hosted on Walrus",
+  "root_path": "/",
+  "cache_control": "public, max-age=3600"
+}
